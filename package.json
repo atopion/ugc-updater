@@ -1,0 +1,28 @@
+{
+  "name": "ugc-updater",
+  "version": "1.0.0",
+  "description": "Updates the UGC-repository via a script when it recieves a HTTP POST request on port 4499.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/atopion/ugc-updater"
+  },
+  "keywords": [
+    "Updater",
+    "NodeJS",
+    "Javascript",
+    "ExpressJS"
+  ],
+  "author": "Timon Vogt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7",
+    "supertest": "^4.0.2"
+  }
+}
