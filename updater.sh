@@ -1,6 +1,6 @@
 echo "Starting update script."
 
-cd /home/nick/UGC/UGC-repository
+cd /home/$USER/UGC/UGC-repository
 
 docker-compose -f build/tmp/docker/docker-compose.yml down
 

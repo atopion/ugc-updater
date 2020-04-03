@@ -16,7 +16,7 @@ const server = app.listen(4499, () => {
 });
 
 async function update() {
-    const cmd = (process.platform === "win32" ? ".\\updater.sh" : "./updater.sh > log.txt 2> error.txt");
+    const cmd = (process.platform === "win32" ? ".\\updater.sh" : "./updater.sh > logs/log.log 2> logs/error.log");
     await new Promise((resolve, reject) =>  {
         exec(cmd, (err, stdout, stderr) => {
             if (err) {

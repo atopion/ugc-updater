@@ -1,8 +1,0 @@
-.FileNotFoundError: [Errno 2] No such file or directory: './build/tmp/docker/docker-compose.yml'
-Unknown option: -v
-usage: git [--version] [--help] [-C <path>] [-c name=value]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-.FileNotFoundError: [Errno 2] No such file or directory: './build/tmp/docker/docker-compose.yml'
